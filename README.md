@@ -27,34 +27,22 @@ This project highlights networking fundamentals, multithreading, and Java GUI de
 ---
 
 ## 📂 Project Structure
+```bash
 EchoChat/
-
 │
-
 ├── src/com/echochat/
-
-│ ├── Server.java # Main server program
-
-│ ├── Client.java # Client program
-
-│ ├── ClientHandler.java # Handles each connected client
-
-│ ├── LoginGUI.java # Login interface
-
-│ ├── ChatGUI.java # Main chat window
-
-│ └── FileTransfer.java # Handles sending/receiving files
-
+│ ├── Server.java              # Main server program
+│ ├── Client.java              # Client program
+│ ├── ClientHandler.java       # Handles each connected client
+│ ├── LoginGUI.java            # Login interface
+│ ├── ChatGUI.java             # Main chat window
+│ └── FileTransfer.java        # Handles sending/receiving files
 │
+├── users.txt                  # Stores login credentials
+├── LICENSE                    # MIT License
+└── README.md                  # Documentation
 
-├── users.txt # Stores login credentials
-
-├── LICENSE # MIT License
-
-└── README.md # Documentation
-
-
----
+```
 
 ## 📥 How to Clone & Run the Project
 
@@ -90,8 +78,11 @@ git commit -m "Describe your update"
 git push origin feature-name
 ```
 📜 License
+
 This project is licensed under the MIT License.
+
 You are free to use, modify, and distribute this software with proper attribution.
 
 ❤️ Author
+
 Shreya R
